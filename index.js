@@ -80,6 +80,7 @@ app.post('/api/login', async (req, res) => {
     }
 
     if (await bcrypt.compare(password, user.password)) {
+
         // the username, password combination is successful
         const token = jwt.sign({
             id: user._id,
