@@ -1,0 +1,6 @@
+Client -> Server : Your client *somehow* has to authenticate who it is
+Why -> Server is a central computer which YOU control.
+Client (john) -> a computer which you do NOT control.
+
+1. Client proves itself somehow on the request. (JWT)
+2. Client-Server share a secret. (Cookie)
